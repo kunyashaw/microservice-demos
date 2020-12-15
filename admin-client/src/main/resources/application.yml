@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: admin-client
+  cloud:
+    consul:
+      host: 192.168.3.3
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+#  boot:
+#    admin:
+#      client:
+#        url: http://192.168.3.3:9301
+server:
+  port: 9305
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+logging:
+  file: admin-client.log
