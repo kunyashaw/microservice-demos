@@ -4,7 +4,6 @@ import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.tsino.sentinelservice.api.CommonResult;
 import com.tsino.sentinelservice.handler.CustomBlockHandler;
-import com.tsino.sentinelservice.handler.MyUrlBlockHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -56,4 +55,12 @@ public class RateLimitController {
     public  CommonResult test() {
         return CommonResult.success("test","请求成功的数据");
     }
+    /**
+     * 自定义通用的限流处理逻辑
+     */
+    @GetMapping("/789")
+    public  CommonResult test123() {
+        return CommonResult.success("test123","请求成功的数据");
+    }
+
 }
