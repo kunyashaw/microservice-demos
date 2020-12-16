@@ -1,5 +1,5 @@
 server:
-  port: 9101
+  port: "${config.port}"
 spring:
   application:
     name: nacos-config-client
