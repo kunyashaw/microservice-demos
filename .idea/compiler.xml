@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-user-service" />
+        <module name="nacos-config-client" />
         <module name="consul-ribbon" />
         <module name="admin-server" />
-        <module name="nacos-ribbon-service" />
         <module name="admin-client" />
         <module name="api-gateway" />
         <module name="consul-client" />
-        <module name="nacos-user-service" />
+        <module name="nacos-ribbon-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="consul-client" target="1.8" />
       <module name="consul-config" target="1.8" />
       <module name="consul-ribbon" target="1.8" />
+      <module name="nacos-config-client" target="1.8" />
       <module name="nacos-ribbon-service" target="1.8" />
       <module name="nacos-user-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -34,6 +36,7 @@
       <module name="consul-client" options="-parameters" />
       <module name="consul-config" options="-parameters" />
       <module name="consul-ribbon" options="-parameters" />
+      <module name="nacos-config-client" options="-parameters" />
       <module name="nacos-ribbon-service" options="-parameters" />
       <module name="nacos-user-service" options="-parameters" />
     </option>

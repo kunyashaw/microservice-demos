@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-client/consul-client.iml" filepath="$PROJECT_DIR$/consul-client/consul-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-ribbon/consul-ribbon.iml" filepath="$PROJECT_DIR$/consul-ribbon/consul-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config-client/nacos-config-client.iml" filepath="$PROJECT_DIR$/nacos-config-client/nacos-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-ribbon-service/nacos-ribbon-service.iml" filepath="$PROJECT_DIR$/nacos-ribbon-service/nacos-ribbon-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-user-service/nacos-user-service.iml" filepath="$PROJECT_DIR$/nacos-user-service/nacos-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/testJava.iml" filepath="$PROJECT_DIR$/.idea/testJava.iml" />
